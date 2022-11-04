@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'camm-icons';
+  src:  url('../fonts/camm-icons.eot?42yw73');
+  src:  url('../fonts/camm-icons.eot?42yw73#iefix') format('embedded-opentype'),
+    url('../fonts/camm-icons.ttf?42yw73') format('truetype'),
+    url('../fonts/camm-icons.woff?42yw73') format('woff'),
+    url('../fonts/camm-icons.svg?42yw73#camm-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.customicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'camm-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.customicon-angle-bottom:before {
+  content: "\e90b";
+}
+.customicon-angle-left:before {
+  content: "\e90c";
+}
+.customicon-angle-right-thin:before {
+  content: "\e90d";
+}
+.customicon-angle-up:before {
+  content: "\e90e";
+}
+.customicon-arrow-right:before {
+  content: "\e90f";
+}
+.customicon-bars:before {
+  content: "\e910";
+}
+.customicon-cross:before {
+  content: "\e911";
+}
+.customicon-facebook:before {
+  content: "\e912";
+}
+.customicon-instagram:before {
+  content: "\e913";
+}
+.customicon-leaf:before {
+  content: "\e914";
+}
+.customicon-linkedin:before {
+  content: "\e915";
+}
+.customicon-twitter:before {
+  content: "\e916";
+}
