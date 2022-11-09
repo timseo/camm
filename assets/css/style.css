@@ -96,14 +96,14 @@
   padding: 80px 0;
 }
 .home-banner h3 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 90px;
   letter-spacing: 2px;
   line-height: 1.2;
   color: #459672;
 }
 .home-banner h1 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 196px;
   line-height: 1.1;
   letter-spacing: 2px;
@@ -120,7 +120,7 @@
 
 @media (max-width: 1599px) {
   .home-banner h3 {
-    font-size: 84px;
+    font-size: 80px;
   }
 }
 @media (max-width: 1399px) {
@@ -187,7 +187,7 @@
 }
 .home-product .container-fluid {
   background-color: #000;
-  border-bottom: 1px solid #707070;
+  /* border-bottom: 1px solid #707070; */
   position: relative;
   overflow: visible;
 }
@@ -200,14 +200,17 @@
 }
 .home-product .container-fluid .content .text h2 {
   font-size: 148px;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1;
+  letter-spacing: 3px;
 }
 .home-product .container-fluid .content .text p {
   font-size: 48px;
   font-weight: 300;
   line-height: 1;
   color: #fff;
+  letter-spacing: 5px;
+
 }
 .home-product .container-fluid .content img {
   position: absolute;
@@ -261,7 +264,7 @@
     font-size: 120px;
   }
   .home-product .container-fluid .content .text p {
-    font-size: 40px;
+    font-size: 32px;
   }
   .home-product .container-fluid .content img {
     transform: translate(-50%, -50%) scale(0.8);
@@ -425,29 +428,33 @@
 }
 .replace h3 {
   color: #A7D0E6;
-  font-size: 80px;
-  font-weight: 300;
+  font-size: 65px;
+  font-weight: 700;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .replace h3 span {
   color: #459672;
+  font-weight: 700;
 }
 .replace .row {
   margin-top: 50px;
 }
 .replace .row .col-md-6 h5 {
-  font-size: 40px;
+  font-size: 30px;
   color: #A7D0E6;
-  font-weight: 300;
+  font-weight: 700;
   padding-right: 50px;
   letter-spacing: 1px;
+  line-height: 55px;
 }
 .replace .row .col-md-6 p {
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
   padding-left: 50px;
   letter-spacing: 1px;
   margin-bottom: 0;
+  line-height: 43px;
 }
 .replace .row .col-md-6:first-child {
   width: 45%;
@@ -536,6 +543,8 @@
   font-size: 141px;
   padding-right: 90px;
   color: #fff;
+  font-weight: 700;
+  letter-spacing: 5px;
 }
 .reason .single-reason {
   display: flex;
@@ -543,7 +552,7 @@
 }
 .reason .single-reason h1 {
   font-size: 241px;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1;
   color: #fff;
   width: 280px;
@@ -554,7 +563,7 @@
   font-size: 32px;
   color: #fff;
   width: calc(100% - 280px);
-  padding-left: 20px;
+  padding-left: 42px;
   line-height: 1.4;
 }
 .reason .col-md-6:last-child {
@@ -594,7 +603,7 @@
     width: 230px;
   }
   .reason .single-reason p {
-    font-size: 30px;
+    font-size: 21px;
     width: calc(100% - 200px);
   }
   .reason .col-md-6:last-child::after {
@@ -710,8 +719,8 @@
 }
 .solve h4 {
   text-align: center;
-  font-weight: 300;
-  font-size: 65px;
+  font-weight: 700;
+  font-size: 55px;
   color: #A7D0E6;
   max-width: 1400px;
   margin: auto;
@@ -723,8 +732,8 @@
 }
 .solve p {
   text-align: center;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 32px;
+  font-weight: 700;
   color: #fff;
   max-width: 1150px;
   margin: auto;
@@ -732,9 +741,11 @@
   padding: 50px 0 110px;
 }
 .solve p b {
-  font-weight: 300;
-  display: block;
-  text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-top: 6px;
 }
 
 @media (max-width: 1599px) {
@@ -742,7 +753,7 @@
     padding: 120px 0;
   }
   .solve h4 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .solve p {
     padding: 40px 0 90px;
@@ -964,12 +975,14 @@
   color: #459672;
   max-width: 1100px;
   margin: auto;
+  font-style: italic;
 }
 .quotes p {
   font-size: 25px;
   font-weight: 700;
   color: #459672;
   margin-top: 50px;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 1599px) {
@@ -1023,20 +1036,21 @@
   max-width: 100%;
 }
 .partners h2 {
-  font-size: 45px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 500;
   text-align: center;
   max-width: 1200px;
   margin: auto;
   margin-bottom: 70px;
   line-height: 1.4;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+}
 }
 .partners .swiper-slide {
   width: 150px;
 }
 .partners .swiper-slide img {
-  width: 100%;
+  width: 10%;
 }
 
 @media (max-width: 1599px) {
@@ -1076,6 +1090,7 @@
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 10px;
+  letter-spacing: 3px;
 }
 .footer form .input-wrap {
   position: relative;
@@ -1139,6 +1154,7 @@
   font-weight: 700;
   text-decoration: none;
   margin-left: 25px;
+  letter-spacing: 2px;
 }
 .footer .footer-bottom .nav a:hover {
   color: #459672;
