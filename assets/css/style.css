@@ -959,8 +959,8 @@
     margin-left: -25px;
   }
   .polymer .image img {
-    height: 500px;
-    width: auto;
+    /* height: 500px; */
+    width: 90%;
     padding-right: 25px;
     padding-left: 25px;
   }
