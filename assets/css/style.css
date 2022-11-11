@@ -559,7 +559,7 @@
   text-align: right;
 }
 .reason .single-reason p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 32px;
   color: #fff;
   width: calc(100% - 280px);
@@ -1645,6 +1645,7 @@
   max-width: 1300px;
   margin: auto;
   text-align: center;
+  font-weight: 500;
 }
 .about-solution .bottom-part {
   padding: 70px 0;
@@ -2165,3 +2166,4 @@
        object-fit: contain;
   }
 }
+
