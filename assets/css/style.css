@@ -1085,6 +1085,7 @@
 .footer {
   padding: 70px 0 40px;
   border-top: 5px solid #1A1818;
+  margin-top: 10px;
 }
 .footer form h4 {
   font-size: 18px;
@@ -1178,7 +1179,8 @@
   .footer .footer-bottom img {
     position: static;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
+    width: 45px;
   }
   .footer .footer-bottom .social {
     width: 100%;
@@ -1188,7 +1190,14 @@
   }
   .footer .footer-bottom .nav a {
     margin-left: 20px;
+    font-size: 10px;
   }
+  .footer-bottom ul.nav {
+    display: block;
+}
+.nav > li {
+	display: inline-block;
+}
 }
 .faq-section {
   padding: 80px 0;
@@ -2166,4 +2175,3 @@
        object-fit: contain;
   }
 }
-
