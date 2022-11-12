@@ -1411,11 +1411,23 @@
   letter-spacing: 2px;
   line-height: 1.4;
 }
+.team .memberSwiper{
+  margin-bottom: 100px;
+}
+.team .memberSwiper .swiper-button-next,
+.team .memberSwiper .swiper-button-prev{
+  opacity: 0;
+  color: #459672;
+  transition: .3s;
+}
+.team .memberSwiper:hover .swiper-button-next,
+.team .memberSwiper:hover .swiper-button-prev{
+  opacity: 1;
+}
 .team .member {
   display: flex;
   padding: 50px 70px;
   background-color: #fff;
-  margin-bottom: 100px;
   align-items: center;
 }
 .team .member img {
@@ -1471,9 +1483,11 @@
   .team h4 {
     font-size: 35px;
   }
+  .team .memberSwiper{
+    margin-bottom: 80px;
+  }
   .team .member {
     padding: 50px 70px;
-    margin-bottom: 80px;
   }
   .team .member .text {
     padding-left: 60px;
@@ -1509,9 +1523,11 @@
     font-size: 30px;
     margin-bottom: 30px;
   }
+  .team .memberSwiper{
+    margin-bottom: 60px;
+  }
   .team .member {
     padding: 40px 50px;
-    margin-bottom: 60px;
   }
   .team .member .text {
     padding-left: 50px;
@@ -1562,9 +1578,11 @@
     font-size: 22px;
     margin-bottom: 30px;
   }
+  .team .memberSwiper{
+    margin-bottom: 40px;
+  }
   .team .member {
     padding: 30px;
-    margin-bottom: 40px;
     flex-direction: column;
   }
   .team .member img {
@@ -1906,6 +1924,8 @@
   width: 35%;
   height: 550px;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
 }
 .product-section .product-content .product-detais .image img {
   height: 550px;
@@ -1914,6 +1934,16 @@
   display: block;
   margin: auto;
   transition: 0.3s;
+  object-fit: contain;
+}
+.product-section .product-content .product-detais .image video {
+  max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+.product-section .product-content .product-detais .text {
+  width: 70%;
 }
 .product-section .product-content .product-detais h3 {
   color: #A7D0E6;
@@ -2131,6 +2161,7 @@
   }
   .product-section .product-content .text {
     padding-right: 10px;
+    width: 65%;
   }
   .product-section .product-content h2 {
     font-size: 28px;
@@ -2155,6 +2186,9 @@
   .product-section .product-content.sticky .product-detais p {
     font-size: 14px;
     margin-bottom: 5px;
+  }
+  .product-section .product-content.sticky .product-detais .image{
+    width: 35%;
   }
   .product-section .product-content.sticky h2 {
     font-size: 16px;

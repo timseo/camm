@@ -14,7 +14,6 @@ $(document).ready(function(){
     $('.product img').click(function(e){
         e.preventDefault();
         var ht = $(this).siblings().children().clone();
-        console.log(ht)
         $('.product-content .product-detais').empty()
         $('.product-content .product-detais').append(ht);
         $('.product').removeClass('active')
@@ -36,6 +35,19 @@ var swiper = new Swiper(".mySwiper", {
         1600: {
         spaceBetween: 65,
         },
+    },
+});
+var swiper = new Swiper(".memberSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 7000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 var swiper = new Swiper(".product-slider1", {
