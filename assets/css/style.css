@@ -730,6 +730,8 @@
 .solve {
   padding: 150px 0;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.31)), url(../image/the-prblem-we-solve.png);
+  background-size: cover;
+  background-position: center;
 }
 .solve h4 {
   text-align: center;
