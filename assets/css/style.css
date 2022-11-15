@@ -1520,7 +1520,7 @@
   display: flex;
   padding: 50px 70px;
   background-color: #fff;
-  align-items: center;
+  /* align-items: center; */
 }
 .team .member img {
   width: 31%;
@@ -1530,20 +1530,23 @@
   width: 69%;
   padding-left: 80px;
   padding-right: 80px;
+  display: flex;
+  flex-direction: column;
 }
 .team .member .text h6 {
   font-size: 28px;
   font-weight: 700;
   color: #252628;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   letter-spacing: 1px;
 }
 .team .member .text h4 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   color: #459672;
   letter-spacing: 2px;
+  margin-bottom: 0;
 }
 .team .member .text p {
   text-transform: uppercase;
@@ -1551,6 +1554,8 @@
   font-weight: 500;
   color: #252628;
   margin-bottom: 0;
+  flex-grow: 1;
+  padding-bottom: 20px;
 }
 .team h5 {
   font-size: 40px;
@@ -1587,11 +1592,10 @@
   }
   .team .member .text h6 {
     font-size: 22px;
-    margin-bottom: 40px;
   }
   .team .member .text h4 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 26px;
+    margin-bottom: 0;
   }
   .team .member .text p {
     font-size: 20px;
@@ -1627,11 +1631,10 @@
   }
   .team .member .text h6 {
     font-size: 20px;
-    margin-bottom: 30px;
   }
   .team .member .text h4 {
     font-size: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   .team .member .text p {
     font-size: 18px;
@@ -1639,6 +1642,15 @@
   .team h5 {
     font-size: 28px;
   }
+}
+@media (max-width: 1199px) {
+  .team .member img {
+    object-fit: contain;
+  }
+  .team .member .text h4 {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
 }
 @media (max-width: 991px) {
   .team {
