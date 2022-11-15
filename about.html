@@ -80,14 +80,14 @@
 
     <footer class="footer">
       <div class="container">
-        <form action="">
-            <h4>STAY IN TOUCH</h4>
-            <div class="input-wrap">
-              <input type="email" placeholder="Your email">
-              <button class="btn"><span class="customicon customicon-arrow-right"></span></button>
-            </div>
-            <h4>CONTACT</h4>
-            <a href="mailto:info@camm.com">info@camm.com</a>
+        <form method="post" action="sendemail.php">
+          <h4>STAY IN TOUCH</h4>
+          <div class="input-wrap">
+            <input type="email" name="email" required="" placeholder="Your email">
+            <button class="btn"><span class="customicon customicon-arrow-right"></span></button>
+          </div>
+          <h4>CONTACT</h4>
+          <a href="mailto:info@camm.com">info@camm.com</a>
         </form>
         <div class="footer-bottom">
           <div class="social">

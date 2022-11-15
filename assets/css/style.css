@@ -90,6 +90,14 @@
     padding: 12px;
     padding-right: 20px;
   }
+  .header .navbar .navbar-toggler .customicon {
+    width: 16px;
+    height: 12px;
+    display: block;
+  }
+  .header .navbar .navbar-toggler[aria-expanded="true"] .customicon::before {
+    content: '\e911';
+  }
 }
 .home-banner {
   text-align: center;
@@ -1263,10 +1271,15 @@
   }
   .footer-bottom ul.nav {
     display: block;
-}
-.nav > li {
-	display: inline-block;
-}
+    width: 100%;
+  }
+  .nav > li {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .nav > li:first-child a{
+    margin-left: 0 !important;
+  }
 }
 .faq-section {
   padding: 80px 0;
@@ -1295,6 +1308,7 @@
 .faq-section .faq a span {
   margin-left: 10px;
   transition: 0.3s;
+  font-size: 25px;
 }
 .faq-section .faq a.active span {
   transform: rotateX(180deg);
@@ -1322,6 +1336,9 @@
   .faq-section .faq a {
     font-size: 30px;
   }
+  .faq-section .faq a span{
+    font-size: 22px;
+  }
   .faq-section .faq .body * {
     font-size: 20px;
   }
@@ -1341,6 +1358,9 @@
   }
   .faq-section .faq a {
     font-size: 25px;
+  }
+  .faq-section .faq a span{
+    font-size: 20px;
   }
   .faq-section .faq .body * {
     font-size: 18px;
@@ -1362,6 +1382,9 @@
   }
   .faq-section .faq a {
     font-size: 19px;
+  }
+  .faq-section .faq a span{
+    font-size: 17px;
   }
   .faq-section .faq .body * {
     font-size: 16px;
@@ -2276,5 +2299,165 @@
     height: 140px;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+}
+
+
+
+
+/* Preloader */
+
+.preloader {
+  height: 100%;
+  position: fixed;
+  background-color: #1A1818;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+.preloader-wrap svg{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 14%;
+  transform: translate(-50%,-50%);
+}
+.preloader-wrap .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 55%;
+  transform: translateY(-50%);
+  height: 450px;
+}
+.preloader-wrap .content *{
+  white-space: nowrap;
+}
+.preloader-wrap .text-1{
+  color: #A7D0E6;
+  font-weight: 700;
+  font-size: 180px;
+  position: absolute;
+  line-height: 1;
+  left: 100%;
+  top: 20%;
+  transform: translate(-0%,-50%);
+  animation: text1 2s ease forwards;
+}
+@keyframes text1 {
+  0%{
+    left: 100%;
+    transform: translate(-0%,-50%);
+  }
+  100%{
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+.preloader-wrap .text-2{
+  color: #459672;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 1;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%,-50%) rotateX(180deg);
+  white-space: nowrap;
+  animation: text2 2s ease forwards;
+  opacity: 0;
+}
+@keyframes text2 {
+  0%{
+    transform: translate(-50%,-50%) rotateX(180deg);
+    opacity: 0;
+  }
+  30%{
+    transform: translate(-50%,-50%) rotateX(180deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(-50%,-50%) rotateX(0deg);
+    opacity: 1;
+  }
+}
+.preloader-wrap .text-3{
+  color: #A7D0E6;
+  font-weight: 700;
+  font-size: 180px;
+  line-height: 1;
+  position: absolute;
+  left: 0%;
+  top: 92%;
+  transform: translate(-100%,-50%);
+  animation: text3 2s ease forwards;
+}
+@keyframes text3 {
+  0%{
+    left: 0%;
+    transform: translate(-100%,-50%);
+  }
+  100%{
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+
+@media (max-width: 1399px) {
+  .preloader-wrap .text-1{
+    font-size: 130px;
+  }
+  .preloader-wrap .text-2{
+    font-size: 60px;
+  }
+  .preloader-wrap .text-3{
+    font-size: 130px;
+  }
+  .preloader-wrap .content{
+    top: 55%;
+    height: 320px;
+  }
+}
+@media (max-width: 991px) {
+  .preloader-wrap .text-1{
+    font-size: 100px;
+  }
+  .preloader-wrap .text-2{
+    font-size: 45px;
+  }
+  .preloader-wrap .text-3{
+    font-size: 100px;
+  }
+  .preloader-wrap .content{
+    top: 55%;
+    height: 260px;
+  }
+  .preloader-wrap svg{
+    width: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .preloader-wrap .text-1{
+    font-size: 12vw;
+  }
+  .preloader-wrap .text-2{
+    font-size: 6vw;
+  }
+  .preloader-wrap .text-3{
+    font-size: 12vw;
+  }
+  .preloader-wrap .content{
+    top: 55%;
+    height: 32vw;
+  }
+  .preloader-wrap svg{
+    width: 150px;
   }
 }
