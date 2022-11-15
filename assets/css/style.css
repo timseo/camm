@@ -175,7 +175,7 @@
     letter-spacing: 0px;
   }
   .home-banner h1 {
-    font-size: 54px;
+    font-size: 50px;
     letter-spacing: 0px;
     word-break: break-word;
   }
@@ -332,7 +332,7 @@
     font-size: 60px;
   }
   .home-product .container-fluid .content .text p {
-    font-size: 20px;
+    font-size: 15px;
   }
   .home-product .container-fluid .content img {
     transform: translate(-50%, -50%) scale(0.5);
@@ -353,7 +353,7 @@
     font-size: 54px;
   }
   .home-product .container-fluid .content .text p {
-    font-size: 19px;
+    font-size: 12px;
   }
   .home-product .container-fluid .content img {
     transform: translate(-50%, -50%);
@@ -361,22 +361,22 @@
     height: auto;
   }
   .home-product .container-fluid.row-1 video{
-    width: 62%;
+    width: 80%;
     left: 65%;
     top: 49%;
   }
   .home-product .container-fluid.row-2 video{
     width: 65%;
     left: 32%;
-    top: 55%;
+    top: 45%;
   }
   .home-product .container-fluid.row-3 video {
     left: 65%;
     top: 50%;
-    width: 60%;
+    width: 80%;
   }
   .home-product .container-fluid.row-4 video {
-    width: 60%;
+    width: 80%;
     left: 35%;
     top: 50%;
   }
@@ -566,7 +566,8 @@
     padding: 0 20px;
   }
   .replace h3 {
-    font-size: 25px;
+    font-size: 23px;
+    line-height: 40px;
   }
   .replace .row {
     margin-top: 25px;
@@ -579,10 +580,12 @@
     font-size: 19px;
     padding-right: 0px;
     margin-bottom: 20px;
+    line-height: 40px;
   }
   .replace .row .col-md-6 p {
     font-size: 17px;
     padding-left: 0px;
+    line-height: 36px;
   }
 }
 .reason {
@@ -612,6 +615,7 @@
   color: #fff;
   width: 280px;
   text-align: right;
+  letter-spacing: -15px;
 }
 .reason .single-reason p {
   font-weight: 500;
@@ -656,6 +660,7 @@
   .reason .single-reason h1 {
     font-size: 200px;
     width: 230px;
+    letter-spacing: -15px;
   }
   .reason .single-reason p {
     font-size: 21px;
@@ -680,6 +685,7 @@
   .reason .single-reason h1 {
     font-size: 150px;
     width: 190px;
+    letter-spacing: -13px;
   }
   .reason .single-reason p {
     font-size: 25px;
@@ -705,6 +711,7 @@
   .reason .single-reason h1 {
     font-size: 130px;
     width: 160px;
+    letter-spacing: -10px;
   }
   .reason .single-reason p {
     font-size: 22px;
@@ -722,6 +729,7 @@
   .reason .single-reason h1 {
     font-size: 100px;
     width: 110px;
+    letter-spacing: -8px;
   }
   .reason .single-reason p {
     font-size: 17px;
@@ -755,7 +763,9 @@
     font-size: 110px;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 28px;
+    margin-bottom: -5px;
+    letter-spacing: -8px;
   }
   .reason .single-reason p {
     width: 100%;
@@ -790,7 +800,7 @@
 .solve p {
   text-align: center;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 300;
   color: #fff;
   max-width: 1150px;
   margin: auto;
@@ -832,11 +842,12 @@
 @media (max-width: 1199px) {
   .solve h4 {
     font-size: 42px;
+    line-height: 60px;
   }
 }
 @media (max-width: 991px) {
   .solve {
-    padding: 100px 18px;
+    padding: 60px 18px;
   }
   .solve h4:last-child {
     font-size: 30px;
@@ -844,6 +855,7 @@
   .solve p {
     padding: 20px 0 90px;
     font-size: 22px;
+    line-height: 50px;
     position: relative;
   }
   .solve p b {
@@ -1016,8 +1028,8 @@
     margin-left: -25px;
   }
   .polymer .image img {
-    /* height: 500px; */
-    width: 90%;
+    height: 500px;
+    width: auto;
     padding-right: 25px;
     padding-left: 25px;
   }
@@ -1966,7 +1978,7 @@
   background-color: #1A1818;
 }
 .product-section .product-content {
-  background-color: #1A1818;
+  background-color: #000;
   padding-top: 80px;
   padding-bottom: 30px;
   transition: 0.3s;
