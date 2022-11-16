@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "camm" );
-define( "RECIPIENT_EMAIL", "info@camm.com" );
+define( "RECIPIENT_EMAIL", "info@camm.org" );
 
 
 // Read the form values
@@ -22,7 +22,7 @@ if ( $senderEmail) {
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: contact.html?message=Failed');	
+  	header('Location: contact.html?message=Failed');
 }
 
 ?>
