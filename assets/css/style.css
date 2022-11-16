@@ -2095,8 +2095,8 @@
   line-height: 1.4;
 }
 .product-section .product-content.sticky {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 15px;
   position: fixed;
   top: 0;
   z-index: 99999;
@@ -2104,34 +2104,34 @@
   left: 0;
 }
 .product-section .product-content.sticky .product-detais {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .product-section .product-content.sticky .product-detais .image {
   width: 30%;
-  max-height: 35vh;
+  max-height: 28vh;
 }
 .product-section .product-content.sticky .product-detais .image img {
-  max-height: 35vh;
+  max-height: 28vh;
   -o-object-fit: contain;
      object-fit: contain;
 }
 .product-section .product-content.sticky .product-detais h3 {
-  font-size: 30px;
+  font-size: 26px;
 }
 .product-section .product-content.sticky .product-detais h1 {
-  font-size: 58px;
-  margin-bottom: 30px;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 .product-section .product-content.sticky .product-detais h4 {
-  font-size: 28px;
+  font-size: 25px;
 }
 .product-section .product-content.sticky .product-detais p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 .product-section .product-content.sticky h2 {
-  font-size: 35px;
-  margin-top: 20px;
+  font-size: 26px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 .product-section .select-product {
@@ -2195,23 +2195,23 @@
     margin-top: 30px;
   }
   .product-section .product-content.sticky {
-    padding-top: 40px;
+    padding-top: 30px;
   }
   .product-section .product-content.sticky .product-detais h3 {
-    font-size: 24px;
-  }
-  .product-section .product-content.sticky .product-detais h1 {
-    font-size: 45px;
-    margin-bottom: 25px;
-  }
-  .product-section .product-content.sticky .product-detais h4 {
     font-size: 22px;
   }
+  .product-section .product-content.sticky .product-detais h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .product-section .product-content.sticky .product-detais h4 {
+    font-size: 20px;
+  }
   .product-section .product-content.sticky .product-detais p {
-    font-size: 16px;
+    font-size: 15px;
   }
   .product-section .product-content.sticky h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
   .product-section .select-product {
     padding-bottom: 80px;
