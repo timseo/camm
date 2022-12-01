@@ -275,7 +275,7 @@
   }
   .home-banner-video br{
     display: none;
-  } 
+  }
 }
 
 
@@ -883,7 +883,7 @@
 .solve h4 {
   text-align: center;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 44px;
   color: #A7D0E6;
   max-width: 1400px;
   margin: auto;
@@ -916,7 +916,7 @@
     padding: 120px 0;
   }
   .solve h4 {
-    font-size: 55px;
+    font-size: 44px;
   }
   .solve p {
     padding: 40px 0 90px;
@@ -927,7 +927,7 @@
     padding: 100px 0;
   }
   .solve h4 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .solve p {
     padding: 30px 0 70px;
@@ -2588,7 +2588,7 @@
 .header .nav-down{
   transition: transform 0.2s ease-in-out;
   transform: translate(0,0);
-  
+
 }
 .header .nav-up{
   transition: transform 0.2s ease-in-out;
