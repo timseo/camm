@@ -1820,7 +1820,7 @@
 }
 .about-solution .top-part h3 {
   width: 60%;
-  font-size: 60px;
+  font-size: 55px;
   margin-top: 10px;
   letter-spacing: 2px;
   color: #A7D0E6;
@@ -1897,7 +1897,7 @@
     font-size: 18px;
   }
   .about-solution .top-part h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .about-solution .top-part p {
     font-size: 27px;
@@ -1943,7 +1943,7 @@
     font-size: 16px;
   }
   .about-solution .top-part h3 {
-    font-size: 40px;
+    font-size: 35px;
   }
   .about-solution .top-part p {
     font-size: 20px;
@@ -1991,7 +1991,7 @@
     font-size: 15px;
   }
   .about-solution .top-part h3 {
-    font-size: 35px;
+    font-size: 30px;
     width: 70%;
   }
   .about-solution .top-part p {
@@ -2043,6 +2043,7 @@
   }
   .about-solution .top-part h3 {
     width: 100%;
+    font-size: 25px;
   }
   .about-solution .top-part p {
     font-size: 19px;
