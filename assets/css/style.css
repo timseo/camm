@@ -1824,6 +1824,7 @@
   margin-top: 10px;
   letter-spacing: 2px;
   color: #A7D0E6;
+  text-transform: uppercase;
 }
 .about-solution .top-part p {
   font-size: 32px;
@@ -1896,7 +1897,7 @@
     font-size: 18px;
   }
   .about-solution .top-part h3 {
-    font-size: 50px;
+    font-size: 35px;
   }
   .about-solution .top-part p {
     font-size: 27px;
