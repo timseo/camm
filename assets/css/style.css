@@ -238,7 +238,7 @@
   width: 100px;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1;
 }
 .home-banner-video h3 {
   font-weight: 500;
@@ -2388,7 +2388,7 @@
 .product-section .select-product .product-slider:hover .swiper-button-prev{
   opacity: 1;
 }
-.product-section .select-product .product-slider .swiper-button-next:after, 
+.product-section .select-product .product-slider .swiper-button-next:after,
 .product-section .select-product .product-slider .swiper-button-prev:after {
   font-size: 24px;
   font-weight: 700;
