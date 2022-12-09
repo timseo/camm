@@ -87,9 +87,20 @@
 
     <section class="home-banner-video">
       <div class="container">
-            <video autoplay muted loop playsinline>
+          <h2>CAMM COFFEE POUCH</h2>
+          <div id="vid">
+            <video muted  playsinline autoplay loop >
               <source src="./assets/video/CAMM_CoffeeBag_Animation_v04_01_221101_MS.mp4" type="video/mp4">
             </video>
+          </div>
+            <div class="d-flex justify-content-center">
+              <div class="go-down">
+                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49902 16.3381L11.6205 14.2169L19.4998 22.0971L27.3791 14.2178L29.5004 16.3391L19.4997 26.3398L9.49902 16.3381Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 3C10.3873 3 3 10.3873 3 19.5C3 28.6127 10.3873 36 19.5 36C28.6127 36 36 28.6127 36 19.5C36 10.3873 28.6127 3 19.5 3ZM0 19.5C0 8.73045 8.73045 0 19.5 0C30.2696 0 39 8.73045 39 19.5C39 30.2696 30.2696 39 19.5 39C8.73045 39 0 30.2696 0 19.5Z" fill="white"/>
+                </svg>                              
+              </div>
+            </div>
             <div class="text">
               <h3>camm biodegrades without<br>
                 nano- and microplastics.</h3>
@@ -162,10 +173,10 @@
         <div class="row">
           <div class="col-md-6">
             <p>Once our green supply chains are fully realized, camm will be fully biobased, e.g. made out of bio waste from renewables. Already today camm carries critical sustainability features such as biodegradability, water solubility, compostability and recyclability.</p>
-            <p>For packaging, patented formulations and processes that combine camm with paper are able to reproduce all necessary barrier functions needed to package food and non-food goods. The disposal</p>
+            <p class="d-none d-md-block">For packaging, patented formulations and processes that combine camm with paper are able to reproduce all necessary barrier functions needed to package food and non-food goods. The disposal</p>
           </div>
           <div class="col-md-6">
-            <p>is simple and convenient for consumers: Once the camm packaging has been used, consumers can simply throw it into the paper bin. In the paper recycling process water is added. The camm material easily dissolves and decomposes back into its original building blocks: oxygen, carbon and biomass, leaving the system through the sewage without a trace. The paper fibers are fully recovered for recycling into new paper. With camm, packaging can be created that has a functional end-of-life almost all over the world. </p>
+            <p><span class="d-md-none">For packaging, patented formulations and processes that combine camm with paper are able to reproduce all necessary barrier functions needed to package food and non-food goods. The disposal</span> is simple and convenient for consumers: Once the camm packaging has been used, consumers can simply throw it into the paper bin. In the paper recycling process water is added. The camm material easily dissolves and decomposes back into its original building blocks: oxygen, carbon and biomass, leaving the system through the sewage without a trace. The paper fibers are fully recovered for recycling into new paper. With camm, packaging can be created that has a functional end-of-life almost all over the world. </p>
           </div>
         </div>
       </div>
@@ -337,9 +348,12 @@
           </div>
           <img src="./assets/image/leaf.svg" alt="">
           <ul class="nav">
-            <li><a href="">PRIVACY POLICY</a></li>
-            <li><a href="">TERMS + CONDITIONS</a></li>
+            <li><a href="./privacy-policy.html">PRIVACY POLICY</a></li>
+            <li><a href="./terms-and-conditions.html">TERMS + CONDITIONS</a></li>
           </ul>
+          <div class="copyright">
+            <p>© Copyright, Bertsch Industries GmbH, Germany</p>
+          </div>
         </div>
       </div>
     </footer>
@@ -360,22 +374,11 @@
       <script src="assets/js/main.js"></script>
       <script>
         $(document).ready(function(){
-          $(window).scroll(function(){
-            var wscroll = $(this).scrollTop();
-            // console.log();
-            if(wscroll>$('.home-banner-video').offset().top + ($(window).height()/3)){
-              $('.home-banner-video h3').addClass('show');
-            }else{
-              $('.home-banner-video h3').removeClass('show');
-            }
-            if(wscroll>$('.home-banner-video').offset().top + ($(window).height()/3) + $('.home-banner-video h3').height()*1.5){
-              $('.home-banner-video p').addClass('show');
-            }else{
-              $('.home-banner-video p').removeClass('show');
-            }
+          $('.go-down').on('click',function(){
+            var s_top = $(this).offset().top + 40;
+            $("html, body").animate({ scrollTop: s_top }, "100");
           })
         })
       </script>
-
   </body>
 </html>
