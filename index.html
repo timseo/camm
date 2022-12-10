@@ -87,7 +87,7 @@
 
     <section class="home-banner-video">
       <div class="container">
-          <h2>CAMM COFFEE POUCH</h2>
+          <!-- <h2>CAMM COFFEE POUCH</h2> -->
           <div id="vid">
             <video muted  playsinline autoplay loop >
               <source src="./assets/video/CAMM_CoffeeBag_Animation_v04_01_221101_MS.mp4" type="video/mp4">
@@ -98,7 +98,7 @@
                 <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M9.49902 16.3381L11.6205 14.2169L19.4998 22.0971L27.3791 14.2178L29.5004 16.3391L19.4997 26.3398L9.49902 16.3381Z" fill="white"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5 3C10.3873 3 3 10.3873 3 19.5C3 28.6127 10.3873 36 19.5 36C28.6127 36 36 28.6127 36 19.5C36 10.3873 28.6127 3 19.5 3ZM0 19.5C0 8.73045 8.73045 0 19.5 0C30.2696 0 39 8.73045 39 19.5C39 30.2696 30.2696 39 19.5 39C8.73045 39 0 30.2696 0 19.5Z" fill="white"/>
-                </svg>                              
+                </svg>
               </div>
             </div>
             <div class="text">
@@ -109,7 +109,7 @@
             </div>
       </div>
     </section>
-<!-- 
+<!--
     <section class="home-product">
       <div class="container-fluid left-text row-1">
         <div class="content">
@@ -371,7 +371,7 @@
 
       <!-- Swiper JS -->
       <script src="assets/js/swiper-bundle.min.js"></script>
-      
+
       <!-- Cookie JS -->
       <script src="assets/js/cookie.min.js"></script>
 
