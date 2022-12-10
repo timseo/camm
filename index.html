@@ -371,6 +371,10 @@
 
       <!-- Swiper JS -->
       <script src="assets/js/swiper-bundle.min.js"></script>
+      
+      <!-- Cookie JS -->
+      <script src="assets/js/cookie.min.js"></script>
+
       <script src="assets/js/main.js"></script>
       <script>
         $(document).ready(function(){
@@ -378,6 +382,10 @@
             var s_top = $(this).offset().top + 40;
             $("html, body").animate({ scrollTop: s_top }, "100");
           })
+
+          if(Cookies.get('showPreloader') === 'true'){
+            $('.loader-wrap').hide();
+          }
         })
       </script>
   </body>

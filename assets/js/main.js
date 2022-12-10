@@ -7,6 +7,7 @@
 	}
     $(window).on('load', function() {
 		handlePreloader();
+        Cookies.set('showPreloader', 'true', { expires: 1 });
 	});
 
     
