@@ -331,6 +331,7 @@
     <footer class="footer">
       <div class="container">
         <form method="post" action="sendemail.php">
+          <div class="klaviyo-form-XMeuSM"></div>
             <h4>STAY IN TOUCH</h4>
             <div class="input-wrap">
               <input type="email" name="email" required="" placeholder="Your email">
@@ -374,6 +375,10 @@
 
       <!-- Cookie JS -->
       <script src="assets/js/cookie.min.js"></script>
+
+      <!-- Klaviyo -->
+      <script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QVXxsD"></script>
+
 
       <script src="assets/js/main.js"></script>
       <script>
