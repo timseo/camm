@@ -331,7 +331,7 @@
     <footer class="footer">
       <div class="container">
         <form method="post" action="sendemail.php">
-          <div class="klaviyo-form-XMeuSM"></div>
+          <div class="klaviyo-form-Rskjzm"></div>
             <h4>STAY IN TOUCH</h4>
             <div class="input-wrap">
               <input type="email" name="email" required="" placeholder="Your email">
