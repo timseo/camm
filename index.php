@@ -332,16 +332,10 @@
 
     <footer class="footer">
       <div class="container">
-      <div class="d-none form">
-        <h4>STAY IN TOUCH</h4>  
-        <div class="klaviyo-form-XMeuSM"></div>
-      </div>
-        <form method="post" action="sendemail.php" id="contact_form">
+        <form>
             <h4>STAY IN TOUCH</h4>
-            <div class="input-wrap">
-              <input type="hidden" id="contact_tags" name="contact" value="newsletter">
-              <input type="email" name="email" required="" placeholder="Your email">
-              <button class="btn" name="subscribe" type="submit"><span class="customicon customicon-arrow-right"></span></button>
+            <div class="input-wrap"> 
+              <div class="klaviyo-form-XMeuSM"></div>
             </div>
             <h4>CONTACT</h4>
             <a href="mailto:info@camm.org">info@camm.org</a>
