@@ -2780,3 +2780,48 @@
     font-size: 20px;
   }
 }
+
+.footer .needsclick {
+  min-height: auto !important;
+}
+.footer .needsclick>input {
+  display: block;
+  width: 100% !important;
+  padding: 10px 30px 10px 0 !important;
+  border: 0 !important;
+  border-bottom: 2px solid #1A1818 !important;
+  font-size: 18px !important;
+  font-family: "Avenir" !important;
+  font-weight: 300 !important;
+}
+.footer .needsclick>input::placeholder {
+  font-family: "Avenir" !important;
+  font-weight: 300 !important;
+  font-size: 18px !important;
+}
+.footer .needsclick[type="button"] {
+   width: 26px !important;
+   height: 26px !important;
+   font-size: 13px !important;
+   display: flex;
+   padding: 6px 9px !important;
+   position: absolute;
+   right: 0;
+   bottom: 10px;
+   box-sizing: border-box;
+}
+.footer .needsclick[type="button"]::before {
+  content: "\e90f";
+  font-family: 'camm-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 1px;
+  cursor: pointer;
+}
