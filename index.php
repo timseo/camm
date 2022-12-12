@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/icon.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Klaviyo -->
+    <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QVXxsD"></script>
   </head>
   <body>
     <!-- preloader -->
@@ -330,12 +332,13 @@
 
     <footer class="footer">
       <div class="container">
-        <form method="post" action="sendemail.php">
-          <div class="klaviyo-form-Rskjzm"></div>
+      <div class="klaviyo-form-XMeuSM"></div>
+        <form method="post" action="sendemail.php" id="contact_form">
             <h4>STAY IN TOUCH</h4>
             <div class="input-wrap">
+              <input type="hidden" id="contact_tags" name="contact" value="newsletter">
               <input type="email" name="email" required="" placeholder="Your email">
-              <button class="btn"><span class="customicon customicon-arrow-right"></span></button>
+              <button class="btn" name="subscribe" type="submit"><span class="customicon customicon-arrow-right"></span></button>
             </div>
             <h4>CONTACT</h4>
             <a href="mailto:info@camm.org">info@camm.org</a>
@@ -375,9 +378,6 @@
 
       <!-- Cookie JS -->
       <script src="assets/js/cookie.min.js"></script>
-
-      <!-- Klaviyo -->
-      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QVXxsD"></script>
 
       <script src="assets/js/main.js"></script>
       <script>
