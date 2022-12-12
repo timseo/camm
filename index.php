@@ -332,7 +332,10 @@
 
     <footer class="footer">
       <div class="container">
-      <div class="klaviyo-form-XMeuSM"></div>
+      <div class="d-none form">
+        <h4>STAY IN TOUCH</h4>  
+        <div class="klaviyo-form-XMeuSM"></div>
+      </div>
         <form method="post" action="sendemail.php" id="contact_form">
             <h4>STAY IN TOUCH</h4>
             <div class="input-wrap">
