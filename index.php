@@ -377,8 +377,7 @@
       <script src="assets/js/cookie.min.js"></script>
 
       <!-- Klaviyo -->
-      <script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QVXxsD"></script>
-
+      <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=QVXxsD"></script>
 
       <script src="assets/js/main.js"></script>
       <script>
